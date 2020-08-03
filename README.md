@@ -1,1 +1,19 @@
 # Python-Starter
+
+
+## Python 3.8
+### Install
+> macOS: `brew install python@3.8`   
+> Ubuntu: `apt-get update; apt-get install -y python3.8`
+
+## Virtual Enviroment
+### Install
+> `pip install virtualenv`
+### Set virtual enviroment
+설정 명령어: `virtualenv --python=파이썬버전 가상환경이름`  
+예시)
+``` bash
+$ mkdir python-virtual-test
+$ cd python-virtual-test
+$ virtualenv --python=3.8 venv
+```
