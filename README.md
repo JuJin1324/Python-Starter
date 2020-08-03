@@ -43,5 +43,5 @@ class Url(object):
         return instance
 ```
 Python 4.0 이상인 경우 해당 문제는 발생하지 않는다.   
-하지만 Python 4.0 이하의 경우 발생하며 최상단에 `from __future__ import annotations` 추가를 통해서 해결한다.   
-[Stack overflow - How do I specify that the return type of a method is the same as the class itself?](https://stackoverflow.com/questions/33533148/how-do-i-specify-that-the-return-type-of-a-method-is-the-same-as-the-class-itsel)
+하지만 Python 4.0 이하의 경우 발생하며 최상단에 `from __future__ import annotations` 추가를 통해서 해결한다.    
+참조사이트: [Stack overflow - How do I specify that the return type of a method is the same as the class itself?](https://stackoverflow.com/questions/33533148/how-do-i-specify-that-the-return-type-of-a-method-is-the-same-as-the-class-itsel)
