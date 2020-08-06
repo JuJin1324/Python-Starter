@@ -4,7 +4,7 @@
 ## Python 3.8
 ### Install
 > macOS: `brew install python@3.8`   
-> Ubuntu: `apt-get update; apt-get install -y python3.8`
+> Ubuntu: `apt-get update; apt-get install -y python3`
 
 ## Virtual Enviroment
 ### Install
