@@ -28,4 +28,4 @@ $ virtualenv --python=3.8 venv
 * requirements.txt에 적힌 모듈 모두 다운받기: `pip install -r requirements.txt`
 
 ### 참조사이트
-[[python] requirements.txt로 패키지 관리하기](https://itholic.github.io/python-requirements/)
+* [[python] requirements.txt로 패키지 관리하기](https://itholic.github.io/python-requirements/)
