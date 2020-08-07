@@ -19,10 +19,13 @@ $ cd python-virtual-test
 $ virtualenv --python=3.8 venv
 ```
 
-### requirements.txt
-* 프로젝트에 사용한 라이브러리로 requirements.txt 생성하기: `pip freeze > requirements.txt`
-* requirements.txt에 적힌 라이브러리 다운받기: `pip install -r requirements.txt`
-
 ### 참조사이트
 * [Virtualenv/VirtualenvWrapper OS별 설치&이용법](https://beomi.github.io/2016/12/28/HowToSetup-Virtualenv-VirtualenvWrapper/)
 
+## Pip
+### requirements.txt
+* 프로젝트에 사용한 모듈 목록인 requirements.txt 생성하기: `pip freeze > requirements.txt`
+* requirements.txt에 적힌 모듈 모두 다운받기: `pip install -r requirements.txt`
+
+### 참조사이트
+[[python] requirements.txt로 패키지 관리하기](https://itholic.github.io/python-requirements/)
