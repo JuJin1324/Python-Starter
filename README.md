@@ -29,3 +29,7 @@ $ virtualenv --python=3.8 venv
 
 ### 참조사이트
 * [[python] requirements.txt로 패키지 관리하기](https://itholic.github.io/python-requirements/)
+
+## Module
+### annotations
+forward referencing 적용하기(아래에 정의한 클래스를 미리 사용): `from __future__ import annotations`
